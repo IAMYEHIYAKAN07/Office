@@ -1,0 +1,15 @@
+What is Redux ?
+Redux is a predictable state container designed to
+help you write JavaScript apps that behave consistently across client, server,
+and native environments, and are easy to test.
+
+What is Redux Thunk used for?
+For Redux specifically, "thunks" are a pattern of writing functions with logic inside that can interact with a Redux store's dispatch and getState methods. Using thunks requires the redux-thunk middleware to be added to the Redux store as part of its configuration
+
+What is Pure Component? When to use Pure Component over Component?
+A React component is considered pure if it renders the same output for the same state and props. For this type of class component, React provides the PureComponent base class.
+
+
+What is the second argument that can optionally be passed tosetState and what is
+its purpose?
+The second parameter to setState() is an optional callback function that will be executed once setState is completed and the component is re-rendered. componentDidUpdate should be used instead to apply such logic in most cases. You may directly pass an object as the first argument to setState instead of a function.
